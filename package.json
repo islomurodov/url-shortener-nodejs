@@ -2,13 +2,14 @@
   "name": "url-shortener",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "Islom Murodov",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
